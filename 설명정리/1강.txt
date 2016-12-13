@@ -1,0 +1,2 @@
+npm install --save redux react-redux
+: 뷰 바인딩

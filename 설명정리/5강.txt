@@ -1,0 +1,15 @@
+단하나의 스토어.
+createStore 을 통해 리듀서를 인자로 넘겨 수행
+
+dispatch(action)
+전달받은 액션을 전달시켜준다.
+
+getState()
+현재 상태를 반환
+
+subscribe(listener)
+이 리스너는 상태가 바뀔때바다 부르는 함수를 등록, 콜백함수
+
+replaceReducer(nextReducer)
+리로딩, 코드분할때 사용
+별로안씀

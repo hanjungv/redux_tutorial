@@ -1,0 +1,23 @@
+react-redux
+
+it부서와같다..
+-> provider[제공해준다.]
+
+<Provider store ={store}>
+    <App/>
+</Provider>
+
+
+connect([options....])
+-> 컴포넌트를 리덕스에 연결하는 또다른 함수를 반환한다.
+그 함수에 connect()(Counter)
+카운터가 리덕스로 연결되서 새로운 컴퍼넌트가 반환된다.
+옵션이 없으면
+this.props.store 로 접근이 가능
+
+connect(
+    [mapStateToProps],
+    [mapDispatchToProps],
+    [mergeProps],
+    [options]<- pure / withRef => true일 경우 getWrappedInstance();
+)
